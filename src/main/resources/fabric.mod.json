@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "jdn_mod-mc",
+	"version": "${version}",
+	"name": "JDN_Mod-MC",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jdn_mod-mc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"journal_d_un_noob.main.JDN_ModMC"
+		],
+		"fabric-datagen": [
+			"journal_d_un_noob.main.JDN_ModMCDataGenerator"
+		]
+	},
+	"mixins": [
+		"jdn_mod-mc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
