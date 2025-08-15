@@ -3,15 +3,15 @@
 	"id": "jdn_mod-mc",
 	"version": "1.0.0",
 	"name": "JDN_Mod-MC",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod in the universe of the french minecraft book 'Journal d'un noob'. The goal of the mod is to enhance the lore and the immersion",
 	"authors": [
-		"Me!"
+		"PASTY and Richainer"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/PASTY667/JDN_Mod-MC"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/jdn_mod-mc/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"journal_d_un_noob.main.JDN_ModMCDataGenerator"
-		]
+		],
+      "client": [
+            "journal_d_un_noob.main.JDN_ModMCClient"
+      ]
 	},
 	"mixins": [
 		"jdn_mod-mc.mixins.json"
