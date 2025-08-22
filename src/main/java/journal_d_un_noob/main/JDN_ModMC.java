@@ -1,5 +1,6 @@
 package journal_d_un_noob.main;
 
+import journal_d_un_noob.main.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class JDN_ModMC implements ModInitializer {
     
 	@Override
 	public void onInitialize() {
-	
+        ModItems.initialize();
 	}
 }
