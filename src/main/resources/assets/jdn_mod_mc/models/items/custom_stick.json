@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "jdn_mod_mc:item/custom_stick"
-  }
-}
